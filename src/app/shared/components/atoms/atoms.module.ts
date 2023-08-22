@@ -7,7 +7,10 @@ import { LabelModule } from './label/label.module';
   ],
   imports: [
     CommonModule,
-    LabelModule,
+    LabelModule
+  ],
+  exports: [
+    LabelModule
   ]
 })
 export class AtomsModule { }
