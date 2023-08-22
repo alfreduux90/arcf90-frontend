@@ -8,6 +8,8 @@ import { MaterialModule } from "./material.module";
 
 import { AtomsModule } from './shared/components/atoms/atoms.module';
 import { MoleculesModule } from './shared/components/molecules/molecules.module';
+import { OrganismsModule } from './shared/components/organisms/organisms.module';
+
 import { NotificationModule } from './core/services';
 
 import {AngularFireModule} from '@angular/fire/compat';
@@ -38,6 +40,7 @@ import { getStorage, provideStorage} from '@angular/fire/storage';
     MaterialModule,
     AtomsModule,
     MoleculesModule,
+    OrganismsModule,
     NotificationModule.forRoot()
   ],
   providers: [
