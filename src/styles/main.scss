@@ -1,0 +1,62 @@
+@import "color";
+@import "fonts";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "vendor";
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  background-color: $base;
+  padding-top: 6.5rem;
+
+  @media (max-width: 768px) {
+    padding-top: 3.5rem;
+  }
+}
+
+footer {
+  height: 50px;
+    background-position: center bottom;
+    background-size: 100% 85%;
+    background-repeat: repeat-x;
+    min-height: 25px;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    background-color: $on-secondary;;
+    padding-top: 6.5rem;
+
+  @media (max-width: 768px) {
+    padding-top: 3.5rem;
+  }
+}
+
+.text-extra-small {
+  font-size: 0.75rem;
+}
+
+$btn-border-radius: 0.25rem;
+$btn-font-weight: 500;
+$btn-font-size: 0.875rem;
+$btn-padding-x: 2rem;
+$btn-padding-y: 0.75rem;
+
+$navbar-nav-link-padding-x: 2rem;
+$nav-link-font-size: 0.875rem;
+$nav-link-padding-y: 0.75rem;
+$nav-link-font-weight: 500;
+
+$pagination-border-width: 0;
+$pagination-active-bg: hsl(198, 100%, 34%);
+
+$font-weight-base: 200;
+$line-height-base: 1.5;
+
+$link-decoration: none;
+$card-border-color: hsl(210, 17%, 98%);
+$input-font-size: 0.875rem;
+$input-font-weight: 500;
+$form-feedback-font-size: 0.75rem;
